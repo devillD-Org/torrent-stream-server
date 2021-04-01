@@ -14,5 +14,5 @@ RUN apt -qq install -y nodejs wget
 RUN npm install -g torrent-stream-server
 
 EXPOSE 3000
-wget "https://raw.githubusercontent.com/devillD-Org/torrent-stream-server/master/start.sh"
+RUN wget "https://raw.githubusercontent.com/devillD-Org/torrent-stream-server/master/start.sh"
 CMD ["bash","start.sh"]
