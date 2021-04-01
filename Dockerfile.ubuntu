@@ -14,4 +14,4 @@ RUN apt -qq install -y nodejs
 RUN npm install -g torrent-stream-server
 
 EXPOSE 3000
-CMD ["bash","torrent-stream-server serve"]
+CMD ["bash","start.sh"]
