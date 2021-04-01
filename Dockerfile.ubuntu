@@ -13,6 +13,7 @@ RUN apt -qq install -y npm wget curl dirmngr apt-transport-https lsb-release ca-
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash
 RUN apt -qq install -y nodejs
 
+RUN npm cache clean
 RUN npm install -g torrent-stream-server
 
 EXPOSE 3000
