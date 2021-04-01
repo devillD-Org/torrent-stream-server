@@ -9,9 +9,10 @@ RUN apt -qq update
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Dhaka
 
-RUN apt -qq install -y nodejs
+RUN apt -qq install -y nodejs wget
 
 RUN npm install -g torrent-stream-server
 
 EXPOSE 3000
+wget "https://raw.githubusercontent.com/devillD-Org/torrent-stream-server/master/start.sh"
 CMD ["bash","start.sh"]
