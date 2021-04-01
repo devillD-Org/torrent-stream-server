@@ -20,7 +20,7 @@ HTTP server to convert any torrent to stream with video support.
 
 ## Setup
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KiraLT/torrent-stream-server)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/devillD-Org/torrent-stream-server/tree/master)
 
 > _Heroku forbids P2P services, so your account can be suspened ([learn more](https://github.com/KiraLT/torrent-stream-server/issues/32))_
 
